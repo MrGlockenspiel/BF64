@@ -1,0 +1,6 @@
+limine/
+obj/
+isodir/
+*.o 
+*.iso 
+*.elf
