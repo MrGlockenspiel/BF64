@@ -3,7 +3,7 @@ AS = nasm
 LD = ld
 
 CFLAGS += -O2 -Wall -Wextra -Wno-unused-variable -Wno-overlength-strings -std=gnu17 \
-				 -ffreestanding -fno-stack-protector \
+				 -ffreestanding -fno-stack-protector -fno-strict-aliasing \
 				 -fno-stack-check -fno-lto  -fPIE \
 				 -m64 -march=x86-64 -mno-80387 \
 				 -mno-mmx \
